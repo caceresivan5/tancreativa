@@ -66,10 +66,18 @@ h3{
     padding: 1rem;
 }
 
-.card{
+.card1{
     display: grid;
     grid-template-columns: repeat(1fr);
+
 }
+@media(min-width: 768px) {
+    .card1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .card__contenido{
     width: 80%;
     margin: 1rem auto;
@@ -78,6 +86,11 @@ h3{
     -webkit-box-shadow: 0px 0px 5px 3px rgba(236, 240, 241, 0.75);
     -moz-box-shadow: 0px 0px 5px 3px rgba(236, 240, 241, 0.75);
     box-shadow: 0px 0px 5px 3px rgba(236, 240, 241, 0.75);
+}
+@media(min-width: 768px) {
+    .card__contenido{
+       width: 60%;
+    }
 }
 .card__contenido p{
     text-align: center;
@@ -91,19 +104,12 @@ h3{
     padding:  1rem;
     border-radius: 2rem;  
 }
-.card__logos{
-    display: flex;
-    justify-content: space-evenly;
-    
+
+.card__data{
+    text-align: center;
 }
-.card__logos-info{
-    width: 70%;
-}
-.card__logos-info img{
-    width: 40%;
-    margin: auto auto;
-}
-.card__logos-info p{
+
+.card__data p{
 font-size: 1rem;
 text-align: center;
 }
