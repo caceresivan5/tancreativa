@@ -51,6 +51,11 @@ h3{
     font-size: 1.7rem;
     font-weight: 200;
 }
+@media(min-width: 768px) {
+    .cabecera__titulo h1{
+        font-size: 4rem;
+    }
+}
 .cabecera__titulo h2{
     position: absolute;
     top: 60%;
@@ -58,6 +63,16 @@ h3{
     transform: translate(-55%, -50%);
     font-size: 1rem;
     font-weight: 400;
+}
+@media(min-width: 768px) {
+    .cabecera__titulo h2{
+        position: absolute;
+        top: 60%;
+        left: 52%;
+        transform: translate(-55%, -50%);
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
 }
 .navegacion{
     margin: 0 auto;
