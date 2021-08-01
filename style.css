@@ -34,6 +34,7 @@ h3{
     text-align: center;
     padding: 1rem;
     margin-bottom: 0rem;
+    background-color: #F8CECE;
 }
 .cabecera{
     width: 100%;
@@ -99,7 +100,7 @@ h3{
 
 .card__contenido{
     width: 80%;
-    margin: 1rem auto;
+    margin: 1rem auto 0rem;
     border-radius: 1rem;
     background-color: white;
     -webkit-box-shadow: 0px 0px 5px 3px rgba(236, 240, 241, 0.75);
@@ -115,12 +116,12 @@ h3{
     text-align: center;
     font-size: 1.3rem;
     font-weight: 400;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem;
 }
 
 .card__contenido img{
     width: 100%;
-    padding:  1rem;
+    padding:  0rem 1rem 1rem;
     border-radius: 2rem;  
 }
 
