@@ -1,4 +1,21 @@
+ /*Globales*/
+        
+ html {
+    
+    box-sizing: border-box;
+    
+}
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: 'Oswald', sans-serif;
@@ -78,9 +95,9 @@ font-size: 1rem;
 text-align: center;
 }
 
-footer p{
+footer {
     font-size: 0.7rem;
-    padding: 0.5rem;
+    padding: 0.5rem ;
     text-align: center;
     background-color: #5F6A6A;
     color: white;
