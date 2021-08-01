@@ -61,6 +61,11 @@ h3{
     margin: 0 auto;
 }
 
+.parrafo1{
+    text-align: center;
+    padding: 1rem;
+}
+
 .card{
     display: grid;
     grid-template-columns: repeat(1fr);
