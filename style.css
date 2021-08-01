@@ -13,8 +13,8 @@ body{
 }
 .cabecera__titulo h1{
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 45%;
+    left: 52%;
     transform: translate(-55%, -50%);
     font-size: 1.5rem;
     font-weight: 200;
@@ -22,7 +22,7 @@ body{
 .cabecera__titulo h2{
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 52%;
     transform: translate(-55%, -50%);
     font-size: 1rem;
     font-weight: 200;
