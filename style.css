@@ -1,0 +1,32 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.cabecera{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.cabecera__logo{
+    width: 100%;
+}
+.cabecera__titulo h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.cabecera__titulo h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-size: 1rem;
+    font-weight: 200;
+}
+.navegacion{
+    margin: 0 auto;
+}
