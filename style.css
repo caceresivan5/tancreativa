@@ -21,11 +21,18 @@ body{
     font-family: 'Oswald', sans-serif;
     
 }
+h1{
+    text-align: center;
+    padding: 1rem;
+}
 h2{
     text-align: center;
     padding: 1rem;
 }
-
+h3{
+    text-align: center;
+    padding: 1rem;
+}
 .cabecera{
     width: 100%;
     margin: 0 auto;
@@ -73,6 +80,7 @@ h2{
     font-weight: 400;
     padding: 1rem;
 }
+
 .card__contenido img{
     width: 100%;
     padding:  1rem;
@@ -101,4 +109,11 @@ footer {
     text-align: center;
     background-color: #5F6A6A;
     color: white;
+}
+
+
+/* PAGINA NOSOTROS */
+.parrafoHistoria p{
+    padding: 1rem;
+    text-align: center;
 }
