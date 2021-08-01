@@ -1,6 +1,12 @@
 
+
 body{
     font-family: 'Oswald', sans-serif;
+    
+}
+h2{
+    text-align: center;
+    padding: 1rem;
 }
 
 .cabecera{
@@ -29,4 +35,45 @@ body{
 }
 .navegacion{
     margin: 0 auto;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+.card__contenido{
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: white;
+}
+.card__contenido p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding: 1rem;
+}
+.card__contenido img{
+    width: 100%;
+    padding:  1rem;
+    border-radius: 2rem;  
+}
+.card__logos{
+    display: flex;
+    justify-content: center;
+    
+}
+.card__logos-info img{
+    width: 35%;
+}
+.card__logos-info p{
+font-size: 1.1rem;
+}
+
+footer p{
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #5F6A6A;
+    color: white;
 }
