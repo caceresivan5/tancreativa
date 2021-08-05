@@ -27,7 +27,7 @@ console.log(inventario);
 
 //hago push al inventario
 inventario.push(new producto(05, "Creando nuevas Ideas...", "img/proximamente.png", "indefinido", "Creando...", 2021));
-inventario.push(new producto(04, '"Scrunchies o goma para el pelo"', "img/gomaPelo.png", "nena", "Retazo de Tela", "04/08/2021")); 
+inventario.push(new producto(04, '"Scrunchies o goma para el pelo"', "img/gomaPelo.png", "nena", "Tela", "04/08/2021")); 
 inventario.push(new producto(03, '"Unicornio"', "img/unicornio1.png", "nena", "Fieltro", '20/07/2021' ));
 inventario.push(new producto(02, '"Perrito de LimpiaPipas"', "img/perrito.png", "nene", "Fieltro", '14/07/2021'));  
 inventario.push(new producto(01, '"Principito"', "img/principito1.png", "nene", "Fieltro", '09/07/2021' ));
