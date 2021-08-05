@@ -10,13 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
 //PLANTILLA PARA LAS MANUALIDADES
 
 class producto{
-    constructor(id, detalle, imagen, genero, material, fecha){
+    constructor(id, detalle, imagen, genero, material, fecha, enlace){
         this.id = id,
         this.detalle = detalle,
         this.imagen = imagen,
         this.genero = genero,
         this.material = material,
-        this.fecha = fecha
+        this.fecha = fecha,
+        this.enlace = enlace
     }
 }
 
@@ -26,11 +27,11 @@ const inventario = [];
 console.log(inventario);
 
 //hago push al inventario
-inventario.push(new producto(05, "Creando nuevas Ideas...", "img/proximamente.png", "indefinido", "Creando...", 2021));
-inventario.push(new producto(04, '"Scrunchies o goma para el pelo"', "img/gomaPelo.png", "nena", "Tela", "04/08/2021")); 
-inventario.push(new producto(03, '"Unicornio"', "img/unicornio1.png", "nena", "Fieltro", '20/07/2021' ));
-inventario.push(new producto(02, '"Perrito de LimpiaPipas"', "img/perrito.png", "nene", "Fieltro", '14/07/2021'));  
-inventario.push(new producto(01, '"Principito"', "img/principito1.png", "nene", "Fieltro", '09/07/2021' ));
+inventario.push(new producto(05, "Creando nuevas Ideas...", "img/proximamente.png", "indefinido", "Creando...", 2021, "creando.html"));
+inventario.push(new producto(04, '"Scrunchies o goma para el pelo"', "img/gomaPelo.png", "nena", "Tela", "04/08/2021", "gomaParaPelo.html")); 
+inventario.push(new producto(03, '"Unicornio"', "img/unicornio1.png", "nena", "Fieltro", '20/07/2021', "unicornio.html" ));
+inventario.push(new producto(02, '"Perrito de LimpiaPipas"', "img/perrito.png", "nene", "Fieltro", '14/07/2021', "perrito.html"));  
+inventario.push(new producto(01, '"Principito"', "img/principito1.png", "nene", "Fieltro", '09/07/2021', "principito.html"));
 
 
 //funcion para mostrar el inventario en el HTML
@@ -53,7 +54,7 @@ function mostrarInventario( inventario){
         
         </div>
         <div class="botonCard">
-        <a href="seccionesInternas/unicornio.html">+INFO</a>
+        <a href="${prod1.enlace}">+INFO</a>
             </div>
 
         `
