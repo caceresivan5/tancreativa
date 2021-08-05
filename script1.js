@@ -48,8 +48,8 @@ function mostrarInventario( inventario){
                    <img src='${prod1.imagen}' , alt='${prod1.detalle}'>
         </div>
         <div class="card__data2">
-        <p>Material: ${prod1.material} </p>
-        <p>Data: ${prod1.fecha} </p>
+        <p><span> Material: </span> ${prod1.material} </p>
+        <p><span> Data: </span> ${prod1.fecha} </p>
         </div>
         
 

@@ -98,7 +98,7 @@ h3{
     }
 }
 
-.card__contenido , .cardInventario__Manualidades{
+.card__contenido {
     width: 60%;
     margin: 1rem auto 1rem;
     border-radius: 1rem;
@@ -163,18 +163,31 @@ footer {
 
 .cardInventario{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     
+}
+.cardInventario__Manualidades{
+    width: 80%;
+    margin: 1rem auto 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(248, 206, 206, 0.75);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(248, 206, 206, 0.75);
+    box-shadow: 0px 0px 5px 3px rgba(248, 206, 206, 0.75);
 }
 .cardInventario__Manualidades p{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 700;
     padding: 1rem 1rem 0rem;
 }
 .card__data2 p{
     font-weight: 200;
     padding: 0rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+}
+span{
+    font-weight: 700;
 }
 
 /* PAGINA CONTACTOS */
