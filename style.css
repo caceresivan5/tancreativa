@@ -145,6 +145,7 @@ footer {
     text-align: center;
     background-color: #5F6A6A;
     color: white;
+    margin: 1rem 0rem 0rem;
 }
 @media(min-width: 768px) {
     footer {
@@ -167,7 +168,8 @@ footer {
     
 }
 .cardInventario__Manualidades{
-    width: 80%;
+    width: 85%;
+    height: 97%;
     margin: 1rem auto 1rem;
     border-radius: 1rem;
     background-color: white;
@@ -188,6 +190,16 @@ footer {
 }
 span{
     font-weight: 700;
+}
+ .botonCard a{
+    text-decoration: none;
+    background-color: #b8f5b8;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: white;
+    
 }
 
 /* PAGINA CONTACTOS */

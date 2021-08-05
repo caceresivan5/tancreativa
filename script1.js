@@ -50,8 +50,11 @@ function mostrarInventario( inventario){
         <div class="card__data2">
         <p><span> Material: </span> ${prod1.material} </p>
         <p><span> Data: </span> ${prod1.fecha} </p>
-        </div>
         
+        </div>
+        <div class="botonCard">
+        <a href="seccionesInternas/unicornio.html">+INFO</a>
+            </div>
 
         `
         ;
