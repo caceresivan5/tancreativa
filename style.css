@@ -98,8 +98,8 @@ h3{
     }
 }
 
-.card__contenido{
-    width: 80%;
+.card__contenido , .cardInventario__Manualidades{
+    width: 60%;
     margin: 1rem auto 1rem;
     border-radius: 1rem;
     background-color: white;
@@ -119,17 +119,18 @@ h3{
     padding: 1rem 1rem 0rem;
 }
 
-.card__contenido img{
+.card__contenido img , .cardInventario__Manualidades img{
     width: 100%;
     padding:  0rem 1rem 1rem;
     border-radius: 2rem;  
 }
 
-.card__data{
+.card__data, .cardInventario__Manualidades{
     text-align: center;
+    
 }
 
-.card__data p{
+.card__data p, .cardInventario__Manualidades p{
 font-size: 1rem;
 text-align: center;
 }
@@ -160,9 +161,20 @@ footer {
 
 /* PAGINA MANUALIDADAES*/
 
-.card__manualidades{
+.cardInventario{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    
+}
+.cardInventario__Manualidades p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 1rem 1rem 0rem;
+}
+.card__data2 p{
+    font-weight: 200;
+    padding: 0rem;
+    font-size: 1.1rem;
 }
 
 /* PAGINA CONTACTOS */
@@ -172,7 +184,7 @@ footer {
     grid-template-columns: repeat(1fr);
     margin: 0 auto;
 }
-.contactos__card{
+.contactos__card {
     margin: 1rem auto;
     padding: 1rem;
     -webkit-box-shadow: 0px 0px 5px 3px rgba(236, 240, 241, 0.75);
