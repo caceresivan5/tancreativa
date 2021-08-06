@@ -115,10 +115,6 @@ font-size: 1rem;
 text-align: center;
 }
 
-.contactos h3{
-    background-color: #F8CECE;
-    margin: 1rem 0rem 0rem;
-}
 
 .CardSecciones{
     display: grid;
@@ -127,26 +123,46 @@ text-align: center;
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+
     
 }
 .cardSeccion1{
     width: 95%;
     height: 10rem;
-    background-color: #7acde9;
+    background-color: #AED6F1;
     margin: 0rem auto;
+}
+.titulosSecciones h2{
+    font-weight: 200;
 }
 .cardSeccion2{
     width: 95%;
     height: 10rem;
-    background-color:  #7ae996;
+    background-color:  #82E0AA;
     margin: 0 auto;
 }
 .cardSeccion3{
     width: 95%;
     height: 10rem;
-    background-color:  #e97acd;
+    background-color:  #F5B7B1;
     margin: 0 auto;
+}
+.cardSeccion1 img,
+.cardSeccion2 img,
+.cardSeccion3 img{
+    width: 20%;
+    display: block;
+    margin: 1rem 10% 1rem 30%;
+    opacity: 0.7;
+    border-radius: 0.5rem;
+}
+.seccionesData{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
