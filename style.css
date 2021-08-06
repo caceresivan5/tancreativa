@@ -118,12 +118,13 @@ text-align: center;
 
 .CardSecciones{
     display: grid;
+    margin: 1rem auto;
 }
 .CardSecciones a{
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
     color: white;
     font-weight: 700;
     font-size: 1.2rem;
@@ -151,15 +152,7 @@ text-align: center;
     background-color:  #F5B7B1;
     margin: 0 auto;
 }
-.cardSeccion1 img,
-.cardSeccion2 img,
-.cardSeccion3 img{
-    width: 20%;
-    display: block;
-    margin: 1rem 10% 1rem 30%;
-    opacity: 0.7;
-    border-radius: 0.5rem;
-}
+
 .seccionesData{
     display: flex;
     justify-content: space-evenly;
