@@ -27,10 +27,9 @@ const inventarioIndex = [];
 console.log(inventarioIndex);
 
 //hago push al inventario
-inventarioIndex.push(new productoIndex(03, '"Scrunchies o goma para el pelo"', "img/gomaPelo.png", "nena", "Tela", "04/08/2021", "gomaParaPelo.html")); 
+inventarioIndex.push(new productoIndex(04, '"Scrunchies"', "img/gomaPelo.png", "nena", "Tela", "04/08/2021", "gomaParaPelo.html")); 
 inventarioIndex.push(new productoIndex(02, '"Unicornio"', "img/unicornio1.png", "nena", "Fieltro", '20/07/2021', "unicornio.html" ));
-inventarioIndex.push(new productoIndex(01, '"Perrito de LimpiaPipas"', "img/perrito.png", "nene", "Fieltro", '14/07/2021', "perrito.html"));  
-
+inventarioIndex.push(new productoIndex(02, '"Perrito"', "img/perrito.png", "nene", "LimpiaPipas", '14/07/2021', "perrito.html"));  
 
 //funcion para mostrar el inventario en el HTML
 

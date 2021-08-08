@@ -46,17 +46,23 @@ function mostrarInventario( inventario){
         div1.innerHTML = 
         `
         <p>${prod1.detalle}</p>
+        <div class="contenedorInfo">
+
         <div class="imagen__producto">
                    <img src='${prod1.imagen}' , alt='${prod1.detalle}'>
         </div>
         <div class="card__data2">
         <p><span> Material: </span> ${prod1.material} </p>
         <p><span> Data: </span> ${prod1.fecha} </p>
+        <div class="botonCard">
+        <a href="${prod1.enlace}">VER</a>
+            </div>
         
         </div>
-        <div class="botonCard">
-        <a href="${prod1.enlace}">+INFO</a>
-            </div>
+
+        </div>
+       
+
 
         `
         ;
