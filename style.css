@@ -95,6 +95,8 @@ h3{
     .card1{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -192,6 +194,8 @@ footer {
     .cardInventario{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: 0 auto;
         
     }
 }
@@ -207,8 +211,8 @@ footer {
 }
 @media(min-width: 768px) {
     .cardInventario__Manualidades{
-        width: 70%;
-        height: 97%;
+        width: 90%;
+
         margin: 1rem auto 1rem;
        
     }
