@@ -41,7 +41,15 @@ h3{
     margin: 0 auto;
     position: relative;
 }
-.cabecera__logo{
+@media(min-width: 768px) {
+    .cabecera{
+        width: 100%;
+    }
+    .cabecera__logo img{
+        width: 50%;
+    }
+}
+.cabecera__logo img{
     width: 100%;
 }
 .cabecera__titulo h1{
@@ -59,7 +67,7 @@ h3{
 }
 .cabecera__titulo h2{
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 52%;
     transform: translate(-55%, -50%);
     font-size: 1rem;
@@ -68,7 +76,7 @@ h3{
 @media(min-width: 768px) {
     .cabecera__titulo h2{
         position: absolute;
-        top: 60%;
+        top: 75%;
         left: 52%;
         transform: translate(-55%, -50%);
         font-size: 1.5rem;
@@ -109,9 +117,12 @@ h3{
 
 .cardInventario__Manualidades{
     text-align: center;
+    transition: transform 0.5s;
     
 }
-
+.cardInventario__Manualidades:hover{
+    transform: scale(1.02);   
+}
 .cardInventario__Manualidades p{
 font-size: 1rem;
 text-align: center;
