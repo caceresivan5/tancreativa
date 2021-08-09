@@ -76,6 +76,6 @@ function mostrarInventario( novedad){
 const inventarioMuniecos = JSON.parse(localStorage.getItem('inventarioStorage')) || [];
 //filtro el localstorage por muniecos
 function filtrarMunieco (){
-    const munieco = inventarioMuniecos.filter(elemento => elemento.categoria === "munieco");
+    const munieco = inventarioMuniecos.filter(elemento => elemento.categoria === "munieco" || elemento.categoria === "indefinido" );
     localStorage.setItem('muniecosStorage', JSON.stringify(munieco));
 }
